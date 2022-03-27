@@ -1,0 +1,28 @@
+.navigator {
+    display: flex;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+}
+
+.navigator ul {
+    display: flex;
+    max-width: 1296px;
+    padding: 4px;
+    color: white;
+    margin: 0px auto;
+}
+
+.navigator ul li {
+    margin-right: 15px;
+    padding: 7px;
+}
+
+.navigator a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigator a:visited {
+    text-decoration: none;
+    color: white;
+}
