@@ -571,8 +571,18 @@ video {
 .buy-now-btn {
     border: none;
     border-radius: 50px;
-    padding: .625rem 1.25rem;
+    padding: 0.625rem 1.25rem;
     background-color: #3d00b7;
     color: white;
     font-weight: 700;
+}
+
+.about-us--text {
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: rgb(112, 122, 131);
+}
+
+.upload-img {
+    width: 10rem;
 }

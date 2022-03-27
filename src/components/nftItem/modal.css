@@ -41,8 +41,8 @@
 
 .modal-box input[type=text] {
     width: 100%;
-    margin-bottom: 20px;
-    padding: 12px;
+    margin-bottom: 1rem;
+    padding: .3rem;
     border: 1px solid #ccc;
     border-radius: 3px;
 }

@@ -5,4 +5,7 @@ export * from './amazeNFT/amazeNFT.jsx';
 export * from './videoComponent/videoComponent.jsx';
 export * from './shop/shop';
 export * from './nftItem/nftItem';
-export * from './sendForm/sendToMailForm';
+
+export * from './termsofuse/termsofuse';
+export * from './about/about';
+export * from './soon/soon';

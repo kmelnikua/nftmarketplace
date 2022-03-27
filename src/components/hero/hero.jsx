@@ -4,6 +4,7 @@ import card2 from "../../img/card-2.png";
 import card3 from "../../img/card-3.png";
 import ethereumImg from "../../img/ethereum 2.svg";
 import creatorImg from "../../img/creator-1.png";
+import {Link} from 'react-router-dom';
 export const Hero = () => {
 	return (
 		<div className="container-fluid pb-5">
@@ -17,9 +18,9 @@ export const Hero = () => {
 							Digital marketplace for crypto collectibles and non-fungible
 							tokens (NFTs). Buy, Sell, and discover exclusive digital assets.
 						</h5>
-						<button className="common-btn explore-now--btn mt-5">
+						<Link to="/soon"><button className="common-btn explore-now--btn mt-5">
 							Explore Now
-						</button>
+						</button></Link>
 						<div className="row w-75 mt-4">
 							<div className="col-md-4">
 								<h1 className="ff-Integral fw-bold">98K+</h1>

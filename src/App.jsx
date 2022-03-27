@@ -8,7 +8,9 @@ import {
 	VideoComponent,
 	Shop,
 	NFTItem,
-	SendToMailForm,
+	
+	Termsofuse
+	,About,Soon
 } from "./components";
 import React from "react";
 import { observer } from "mobx-react-lite";
@@ -30,6 +32,15 @@ const App = observer(() => {
 						<NFTItem />
 						
 						
+					</Route>
+					<Route path="/termsofuse">
+						<Termsofuse/>
+					</Route>
+					<Route path="/about">
+						<About/>
+					</Route>
+					<Route path="/soon">
+						<Soon/>
 					</Route>
 					
 				</Switch>
